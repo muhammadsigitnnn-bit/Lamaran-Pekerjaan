@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Lamaran Kerja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#beranda" class="logo">CV<span>.</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">Menu</button>
+  <nav id="menu">
+    <a href="#data">Data Diri</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#kontak" class="nav-cta">Hubungi</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="beranda">
+    <div class="hero-text">
+      <p class="hero-sub"></p>
+      <h1>ERGUN<br>MAULANA PUTRA</h1>
+      <p class="hero-desc">Lulusan SMK Teknik Kimia Industri dengan pengalaman 6 tahun di bidang produksi: mengoperasikan mesin sanding dan buffing, final check, serta troubleshooting.</p>
+      <div class="hero-actions">
+        <a href="#kontak" class="btn btn-red">Hubungi saya</a>
+        <button class="btn btn-line" id="printBtn" type="button">Cetak / simpan PDF</button>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <img src="ergun.jpeg" alt="Foto pelamar" id="foto">
+        <div class="photo-fallback" id="fotoFallback">Taruh foto<br>sebagai <b>foto.jpg</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA DIRI -->
+    <!-- DATA DIRI -->
+  <section class="section" id="data">
+    <h2>Data diri</h2>
+    <dl class="data-grid">
+      <div><dt>Tempat, tanggal lahir</dt><dd>Lamongan, 29 September 2002</dd></div>
+      <div><dt>Kebangsaan</dt><dd>Indonesia</dd></div>
+      <div><dt>Jenis kelamin</dt><dd>Laki-laki</dd></div>
+      <div><dt>Status</dt><dd>Belum kawin</dd></div>
+      <div><dt>Telepon</dt><dd><a href="tel:+6285785435458">+62 857-8543-5458</a></dd></div>
+      <div><dt>Alamat</dt><dd>Dsn. Jombangan, Ds. Sumberwuluh, Kec. Dawarblandong, Mojokerto</dd></div>
+      <div><dt>Tinggi / Berat badan</dt><dd>168 cm / 65 kg</dd></div>
+      <div class="full"><dt>Email</dt><dd><a href="mailto:ergunmp87@gmail.com">ergunmp87@gmail.com</a></dd></div>
+    </dl>
+  </section>
+  <!-- PENDIDIKAN -->
+  <section class="section" id="pendidikan">
+    <h2>Pendidikan</h2>
+    <ol class="timeline">
+      <li>
+        <time>2008 – 2014</time>
+        <h3>MI Liwaul Islam</h3>
+      </li>
+      <li>
+        <time>2014 – 2017</time>
+        <h3>SMP Negeri 2 Mantup</h3>
+      </li>
+      <li>
+        <time>2017 – 2020</time>
+        <h3>SMK Nasional Dawarblandong</h3>
+        <p>Jurusan Teknik Kimia Industri</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PENGALAMAN -->
+    <!-- PENGALAMAN -->
+  <section class="section" id="pengalaman">
+    <h2>Pengalaman kerja</h2>
+    <ol class="timeline">
+      <li>
+        <time>2026</time>
+        <h3>PT Roxy Music</h3>
+        <ul>
+          <li>Assembling</li>
+          <li>Final check</li>
+          <li>Repair assembling</li>
+        </ul>
+      </li>
+      <li>
+        <time>Juni 2020 – Mei 2026</time>
+        <h3>PT Cort Indonesia</h3>
+        <ul>
+          <li>Mengoperasikan mesin sanding</li>
+          <li>Mengoperasikan mesin buffing</li>
+          <li>Final check akhir</li>
+          <li>Memastikan produk sesuai standar kualitas</li>
+          <li>Mengatasi troubleshooting</li>
+        </ul>
+      </li>
+      <li>
+        <time>2019</time>
+        <h3>PKL di PT Petrokimia Gresik</h3>
+        <p>Operator Mesin Industri</p>
+        <ul>
+          <li>Mengoperasikan proses reaksi pupuk NPK</li>
+          <li>Memahami proses produksi dari awal hingga akhir sesuai standar operasional prosedur (SOP)</li>
+          <li>Memantau jalannya produksi melalui DCS</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- KEAHLIAN & HOBI -->
+  <section class="section split" id="keahlian">
+    <div>
+      <h2>Keahlian</h2>
+      <ul class="chips">
+        <li>Microsoft Word</li>
+        <li>Microsoft PowerPoint</li>
+        <li>Disiplin</li>
+        <li>Cekatan</li>
+        <li>Beradaptasi di bawah tekanan</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Hobi</h2>
+      <ul class="chips chips-dark">
+        <li>Sepak bola</li>
+        <li>Gym</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+   <!-- KONTAK -->
+  <section class="contact" id="kontak">
+    <h2>Siap bergabung dengan tim Anda</h2>
+    <p>Hubungi saya untuk jadwal wawancara.</p>
+    <a class="btn btn-white" href="https://wa.me/6285785435458" target="_blank" rel="noopener">Chat WhatsApp</a>
+    <a class="btn btn-outline-white" href="mailto:ergunmp87@gmail.com">Kirim email</a>
+    <a class="phone" href="tel:+6285785435458">+62 857-8543-5458</a>
+  </section>
+</main>
+
+<footer class="footer">© <span id="year"></span> Portofolio Lamaran Kerja</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
